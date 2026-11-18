@@ -16,6 +16,12 @@ This is the paper which a lot of my opaques are built off, it proves that the ci
 <img width="1963" height="926" alt="image" src="https://github.com/user-attachments/assets/b70e8937-a592-4826-8ca1-c82ee7b20859" /><br>
 <img width="1971" height="938" alt="image" src="https://github.com/user-attachments/assets/8dd3ab48-6bdb-456e-9fa0-90c0fe97c845" /><br>
 
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
+
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
 * Download [VCPKG](https://github.com/microsoft/vcpkg)
